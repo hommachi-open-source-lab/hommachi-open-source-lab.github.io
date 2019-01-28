@@ -21,6 +21,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- OGP -->
 {% if page.image %}
 <meta property="og:image" content="{{ page.image }}">
+{% elsif post.image %}
+<meta property="og:image" content="{{ post.image }}">
 {% else %}
 <meta property="og:image" content="https://hommachi-open-source-lab.github.io/img/slider-bg.jpg" />
 {% endif %}
