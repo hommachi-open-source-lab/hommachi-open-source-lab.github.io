@@ -1,6 +1,6 @@
 ---
 layout: post
-image: "{{ site.baseurl }}/img/blog/20190127_3.jpg"
+image: "https://hommachi-open-source-lab.github.io/img/blog/20190127_3.jpg"
 title: 【2019年1月27日開催】大阪開催！入門Pythonセミナーのレポート
 description: 2019年1月27日に大阪開催！入門Pythonセミナーの開催レポートになります。参加を検討している人はぜひ見てください。
 ---
