@@ -18,7 +18,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://hommachi-open-source-lab.github.io{{ page.permalink }}" />
+<!-- OGP -->
+{% if page.image %}
+<meta property="og:image" content="{{ page.image }}">
+{% else %}
 <meta property="og:image" content="https://hommachi-open-source-lab.github.io/img/slider-bg.jpg" />
+{% endif %}
+
 <meta property="og:site_name" content="本町オープンソースラボ -大阪本町のエンジニア向けコミュニティスペース-" />
 <meta property="og:description" content="{{ page.description }}" />
 
