@@ -14,7 +14,9 @@ layout: page
               <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
             </div>
             <hr />
+            {% include share-bar.html %}
             <p>{{ content }}</p>
+            {% include share-bar.html %}
           </div>
         </div><!-- .col-md-7 close -->
       </div>
