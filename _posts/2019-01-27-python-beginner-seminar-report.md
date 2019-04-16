@@ -1,4 +1,12 @@
 ---
+layout: redirected
+sitemap: false
+permalink: /2019/01/27/python-beginner-seminar-report/
+title: 【2019年1月27日開催】大阪開催！Python入門セミナーのレポート
+description: 2019年1月27日に大阪開催！Python入門セミナーの開催レポートになります。参加を検討している人はぜひ見てください。
+redirect_to:  /contents/study/2019_report_python_seminar_for_beginners/
+---
+<!-- ---
 layout: post
 image: "https://hommachi-open-source-lab.github.io/img/blog/20190127_1.JPG"
 title: 【2019年1月27日開催】大阪開催！Python入門セミナーのレポート
@@ -59,4 +67,4 @@ Python入門セミナーを始めるきっかけを少し書かせていただ�
 ### →[【環境構築できるまでサポート！】Pythonインストールと環境構築セミナー（mac/windows）](/contents/study/buld_python_env/)
 
 
-{% include link-udemy_python.html %}
+{% include link-udemy_python.html %} -->
