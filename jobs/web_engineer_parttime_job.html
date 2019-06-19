@@ -62,12 +62,131 @@ permalink: /jobs/web_engineer_parttime_job/
         <p>株式会社ソウ</p>
         <br>
         <h2><span id="Webエンジニア＆コミュニティマネージャーのアルバイト・インターンの求人募集の応募フォーム">応募フォーム</span></h2>
-        <p><a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfwOenufOClAKTiyTS_vC0d0EKykJ7x4GxQPKmwnbf2dmWdNw/viewform">フォームが上手く送信できない場合はこちらをクリックして送信下さい。</a>
+        <p>
+            <font color="red">*</font>印は必須項目です。
         </p>
-        <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfwOenufOClAKTiyTS_vC0d0EKykJ7x4GxQPKmwnbf2dmWdNw/viewform?embedded=true"
-            width="640" height="1631" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます...</iframe>
+        <!-- Google formの処理 -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3>
+                    <center>本町オープンソースラボ 求人応募フォーム</center>
+                </h3>
+            </div>
+            <div class="panel-body">
+                <script type="text/javascript">var submitted = false;
+                </script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                    onload="if(submitted){window.location='/jobs/thanks_web_engineer_parttime_job/';}">
+                </iframe>
+                <!-- フォームアクションの追加　formResponseで検索 -->
+                <form
+                    action="https://docs.google.com/forms/d/e/1FAIpQLSfwOenufOClAKTiyTS_vC0d0EKykJ7x4GxQPKmwnbf2dmWdNw/formResponse"
+                    method="POST" id="ss-form" class="form-horizontal" target="hidden_iframe" onsubmit="submitted=true">
+                    <!-- メールアドレス -->
+                    <div class="form-group">
+                        <h4>
+                            <label for="email" class="control-label col-sm-4">
+                                <font color="red">*</font>メールアドレス
+                            </label>
+                        </h4>
+                        <div class="col-sm-8">
+                            <input id="email" type="text" name="emailAddress" class="form-control"
+                                placeholder="example@mail.co.jp" required>
+                        </div>
+                    </div>
+                    <!-- 応募職種 -->
+                    <div class="form-group">
+                        <h4>
+                            <label for="os" class="control-label col-sm-4">
+                                <font color="red">*</font>
+                                応募職種
+                            </label>
+                        </h4>
+                        <div class="col-sm-8">
+                            <div class="form-check">
+                                <input class="form-check-input" id="jobtype" type="radio" name="entry.29432420" value="Webエンジニア＆コミュニティマネージャーのアルバイト・インターン" required>
+                                <label class="form-check-label" for="jobtype">
+                                    Webエンジニア＆コミュニティマネージャーのアルバイト・インターン
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" id="jobtype" type="radio" name="entry.29432420" value="Webライター">
+                                <label class="form-check-label" for="jobtype">
+                                    Webライター
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 氏名 -->
+                    　<div class="form-group">
+                        <h4>
+                            <label for="shimei" class="control-label col-sm-4">
+                                <font color="red">*</font>氏名
+                            </label>
+                        </h4>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="shimei" type="text" name="entry.947407916" placeholder="名前を記載ください。"
+                                required>
+                        </div>
+                    </div>
+                    <!-- 電話番号 -->
+                    　<div class="form-group">
+                        <h4>
+                            <label for="shimei" class="control-label col-sm-4">
+                                <font color="red">*</font>電話番号
+                            </label>
+                        </h4>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="tel" type="text" name="entry.1632766320" placeholder="電話番号を記載下さい。" required>
+                        </div>
+                    </div>
+                    <!-- 実績と自己PR -->
+                    <div class="form-group">
+                        <h4>
+                            <label for="other" class="control-label col-sm-4">
+                                <font color="red">*</font>実績と自己PR
+                            </label>
+                        </h4>
+                        <div class="col-sm-8">
+                            <textarea class="form-control" id="other" rows="7" name="entry.192066247" placeholder="過去の実績がわかるURLや作品と自己PRを記入ください。"></textarea>
+                        </div>
+                    </div>
+                    <!-- 居住エリア -->
+                    <div class="form-group">
+                        <h4>
+                            <label for="area" class="control-label col-sm-4">
+                                <font color="red">*</font>居住エリア
+                            </label>
+                        </h4>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="tel" type="text" name="entry.297112220" placeholder="記入例：大阪市中央区" required>
+                        </div>
+                    </div>
+                    <!-- 備考 -->
+                    <div class="form-group">
+                        <h4>
+                            <label for="other" class="control-label col-sm-4">
+                                備考
+                            </label>
+                        </h4>
+                        <div class="col-sm-8">
+                            <textarea class="form-control" id="other" rows="7" name="entry.1755596702" placeholder="何か追加でお伝えされたいことや、質問があればこちらに記載ください。"></textarea>
+                        </div>
+                    </div>
+                    <!-- 送信ボタン -->
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-8">
+                            <button type="submit" name="button" value="送信" class="btn btn-primary btn-lg">
+                                送信
+                            </button>
+                        </div>
+                    </div>
+                    　
+                </form>
+            </div>
+        </div>
+        <!-- Google formの処理ここまで -->
+
         {% include share-bar.html %}
     </div>
 </section>
